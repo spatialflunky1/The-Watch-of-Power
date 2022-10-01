@@ -73,6 +73,9 @@ void loop() {
   hour = now.hour();
   minute = now.minute();
   second = now.second();
+  Serial.println("second:");
+  Serial.println(second);
+  
 
   // Checks if in the morning or afternoon
   if (hour > 12) pm=true;
@@ -82,6 +85,6 @@ void loop() {
   
   PAINT_TIME current = {year,month,day,hour,minute,second};
   Paint_DrawTime(posX,LCD_HEIGHT/2,&current,&Font20,WHITE,BLACK);
-  delay(500);
+  delay(750);
   Paint_DrawTime(posX,LCD_HEIGHT/2,&current,&Font20,WHITE,WHITE);
 }
