@@ -7,4 +7,4 @@ An Arduino based watch
 * [AITRIP DS3231 Real Time Clock](https://www.amazon.com/dp/B09KPC8JZQ)
 
 ## Schematic
-TBD (to be drawn)
+![watch schematic](https://github.com/spatialflunky1/The-Watch-of-Power/blob/main/watch_schematic.png?raw=true)
