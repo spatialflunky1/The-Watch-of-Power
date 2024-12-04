@@ -1,6 +1,9 @@
 # The Watch of Power
 An Arduino based watch
 
+## Note:
+* Mostly a proof of concept with semi-functional code
+
 ## Required Parts
 * [Arduino Uno](https://www.amazon.com/dp/B01EWOE0UU)
 * [Waveshare 2.4 ince LCD Module](https://www.amazon.com/dp/B08H24H7KX)
